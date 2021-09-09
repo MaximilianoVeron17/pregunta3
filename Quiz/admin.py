@@ -2,7 +2,7 @@ from django.contrib import admin
 
 # Register your models here.
 
-from .models import ElegirRespuesta, Pregunta, PreguntasRespondidas
+from .models import ElegirRespuesta, Pregunta, PreguntasRespondidas,QuizUsuario
 
 from .forms import ElegirInlineFormset
 
@@ -29,3 +29,4 @@ class PreguntasRespondidasAdmin(admin.ModelAdmin):
 admin.site.register(Pregunta, PreguntaAdmin)
 admin.site.register(ElegirRespuesta)
 admin.site.register(PreguntasRespondidas)
+admin.site.register(QuizUsuario)
