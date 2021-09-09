@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block contenido %}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Hagamos un Quiz</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse lg-d-flex justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav ">
+        <a class="nav-link d-flex align-self-end btn btn-primary mr-lg-5 my-lg-0 my-2" aria-current="page" href="/tablero">Leaderboard</a>
+        <a class="nav-link d-flex align-self-end btn btn-primary" href="/login">Log in</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="">
+  <div class="text-center">
+    <h1 class="">Hagamos un Quiz</h1>
+    <h2>Pon a prueba tus habilidades y conviértete en un maestro</h2>
+
+    <p>Organizamos cuestionarios sobre varios temas</p>
+
+    <p>Registrate si aún no lo ha hecho y obtenga acceso a millones de cuestionarios sobre el tema de tu interes...</p>
+
+    <p>comience su viaje aquí: inscribirse</p>
+
+    <a type="button" class="btn btn-primary" href="/registro">Registrarse</a>
+  </div>
+    
+</main>
+
+{% endblock contenido %}
